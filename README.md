@@ -47,4 +47,5 @@ To see the help menu, use the program as "java -jar VIC/dist/VIC.jar --help":
                                      table_annovar.pl
     ####################################################################################################################
     Example:
-        java -jar VIC.jar -annotate_variation /path/to/annotate_variation.pl -b hg19 -convert2annovar /path/to/convert2annovar.pl -table_annovar /path/to/table_annovar.pl -d /path/to/annovar/humandb -db /path/to/vicdb -i inputfile.avinput -input_type AVinput -o outputfile 
+        java -jar VIC.jar -annotate_variation /path/to/annotate_variation.pl -b hg19 -convert2annovar /path/to/convert2annovar.pl 
+        -table_annovar /path/to/table_annovar.pl -d /path/to/annovar/humandb -db /path/to/vicdb -i inputfile.avinput -input_type AVinput -o outputfile 
