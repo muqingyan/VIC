@@ -45,6 +45,6 @@ To see the help menu, use the program as "java -jar VIC/dist/VIC.jar --help":
                                      be true only after you  already got the annovar's annotation result
     -table_annovar <arg>                <path>The Annovar perl script of
                                      table_annovar.pl
-####################################################################################################################
-Example:
+    ####################################################################################################################
+    Example:
         java -jar VIC.jar -annotate_variation /path/to/annotate_variation.pl -b hg19 -convert2annovar /path/to/convert2annovar.pl -table_annovar /path/to/table_annovar.pl -d /path/to/annovar/humandb -db /path/to/vicdb -i inputfile.avinput -input_type AVinput -o outputfile 
